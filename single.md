@@ -30,4 +30,14 @@ client server :
 <img width="699" height="280" alt="Screenshot 2026-01-10 at 11 06 51 PM" src="https://github.com/user-attachments/assets/1dab658e-ef7b-460e-8afa-26ce699d59ad" />
 
 
+here same like server opening the client socket(c)
+
+connect -- this is used to connect for the specific ip address and port that the server is listening.
+
+in the recive function we need to mention the maximum size of the data that we recive for one communication.
+
+send -- this works only in the bytes form so the message is needed to be sent in the bytes format.
+
+UTF-8 -- unicode transformation format used to encode the message that will be in the form of %2f like this for representing the unicode                  charecters from 1-4 bit size.
+
 
